@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 // DefaultLocalCreatePathMode is the default os.FileMode used when creating directories

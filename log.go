@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	"golang.org/x/net/context"
+	"context"
 	"golang.org/x/net/trace"
 )
 

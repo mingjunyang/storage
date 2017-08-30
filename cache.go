@@ -3,7 +3,7 @@ package storage
 import (
 	"io"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 // Cache creates an FS implementation which caches files opened from src into cache.

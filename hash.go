@@ -7,7 +7,7 @@ import (
 	"hash"
 	"io"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 // HashFS creates a content addressable filesystem using hash.Hash
