@@ -1,6 +1,9 @@
 # Storage
 
-fork from https://github.com/sajari/storage, the only remove remote storage, Google Cloud Storage and S3.
+fork from https://github.com/sajari/storage.
+	1. remove remote storage, Google Cloud Storage and S3.
+	2. replace "golang.org/x/net/context" with "context".
+
 
 [![Build Status](https://travis-ci.org/sajari/storage.svg?branch=master)](https://travis-ci.org/sajari/storage)
 [![GoDoc](https://godoc.org/github.com/sajari/storage?status.svg)](https://godoc.org/github.com/sajari/storage)
