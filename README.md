@@ -1,13 +1,15 @@
 # Storage
 
+fork from https://github.com/sajari/storage, the only remove remote storage, Google Cloud Storage and S3.
+
 [![Build Status](https://travis-ci.org/sajari/storage.svg?branch=master)](https://travis-ci.org/sajari/storage)
 [![GoDoc](https://godoc.org/github.com/sajari/storage?status.svg)](https://godoc.org/github.com/sajari/storage)
 
-storage is a Go package which abstracts file systems (local, in-memory, Google Cloud Storage, S3) into a few interfaces.  It includes convenience wrappers for simplifying common file system use cases such as caching, prefix isolation and more!
+storage is a Go package which abstracts file systems (local, in-memory) into a few interfaces.  It includes convenience wrappers for simplifying common file system use cases such as caching, prefix isolation and more!
 
 # Requirements
 
-- [Go 1.6+](http://golang.org/dl/)
+- [Go 1.8+](http://golang.org/dl/)
 
 # Usage
 
